@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Training artifacts
+classifier/
+checkpoint-*
+
+# Documents
+Markdown/
+
+# Milvus data
+milvus_data/
+volumes/
+# IDE
+.vscode/
+.idea/
+
+user.yaml
+standalone.bat
+embedEtcd.yaml
