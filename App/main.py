@@ -87,7 +87,7 @@ class Chatbot:
             context = (
                 self._get_context(question) if self._needs_retrieval(question) else ""
             )
-            print(context)
+            # print(context)
             print("Assistant: ", end="", flush=True)
             stream = self._call(question, context)
 
