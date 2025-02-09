@@ -13,7 +13,7 @@ Additionally router query classifier has been added.
 
 ## Usage
 
-1. **Before lauching enusre you have:**
+1. **Before launching ensure you have:**
 - Docker Milvus instance ([https://milvus.io/docs/install_standalone-windows.md])
 - PDF files in ~App/Downloads directory for PDF documents ingestion
 - Api key from [https://glhf.chat] to use LLM models (It has free credits)
